@@ -1,0 +1,9 @@
+.login-button {
+    color: white;
+    text-decoration: none;
+    padding: 30px 40px;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: gray;
+}
