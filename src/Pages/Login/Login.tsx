@@ -1,11 +1,13 @@
 import React, { FC } from 'react';
+import LoginForm from '../../Components/LoginForm/LoginForm';
 
 
 interface LoginProps {}
 
 const Login: FC<LoginProps> = () => (
   <div>
-    Login Component
+    <h1>Login</h1>
+    <LoginForm />
   </div>
 );
 
