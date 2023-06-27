@@ -1,4 +1,4 @@
-export interface Date{
+export interface DateDay{
     day: number;
 }
 
