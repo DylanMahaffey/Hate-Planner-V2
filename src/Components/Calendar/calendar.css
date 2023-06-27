@@ -5,9 +5,13 @@
 }
 
 .weekdays-container {
-    display: flex;
     margin: auto;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .weekdays-container .week-day {
